@@ -34,13 +34,13 @@ for (int i =0; i< elements.length)
 cubic notation. O(n3)
 
 
-stack.Stack: LIFO. Last in first out.
+ds.stack.Stack: LIFO. Last in first out.
 
 primary operations
 push: adding item
 pop: removing an item
 
-peak: returns top element from the stack.
+peak: returns top element from the ds.stack.
 isEmpty: 
 isFull: 
 

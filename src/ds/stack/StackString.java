@@ -1,4 +1,4 @@
-package stack;
+package ds.stack;
 
 /**
  * @author Nagendra Kamisetti
@@ -17,7 +17,7 @@ public class StackString {
 
     public void push(char element) {
         if (isFull()) {
-            System.out.println("This stack is already full");
+            System.out.println("This ds.stack is already full");
         } else {
             top++;
             stackArray[top] = element;

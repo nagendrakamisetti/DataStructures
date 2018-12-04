@@ -1,9 +1,9 @@
-package stack;
+package ds.stack;
 
 /**
  * @author Nagendra Kamisetti
  * <p>
- * Reversing a string using stack data structure
+ * Reversing a string using ds.stack data structure
  */
 public class StackStringApp {
 
