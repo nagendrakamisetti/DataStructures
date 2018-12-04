@@ -1,0 +1,54 @@
+Algorithm is set of instructions in the computer for solving a particular problem.
+such sorting, searching.
+
+Big O Notation/Asymptotic notation is used to measure the Algorithm speed.
+
+1. Linear Growth rate or Linear complexity. O(n) = single loop
+fining no.of evens in a given array.
+public int countEvens(int elements[]) {
+int count = 0;
+for (int i =0; i< elements.length)
+ if (elemen)
+
+
+}
+for (int i =0; i<
+
+2. constant Growth rate. O(1)
+
+public int getElementFrom(int a[], int index) {
+	return a[index];
+}
+
+3. Nested Growth rate. O(n2). Quadratic = loop inside a loop. which means squared.
+ count duplicates in two arrays.
+ 
+public int countDuplicates(int items1[], int items2[]) {
+int count = 0;
+for (int i =0; i< elements.length)
+ if (elemen)
+
+
+}
+
+cubic notation. O(n3)
+
+
+stack.Stack: LIFO. Last in first out.
+
+primary operations
+push: adding item
+pop: removing an item
+
+peak: returns top element from the stack.
+isEmpty: 
+isFull: 
+
+
+
+
+
+
+
+
+
