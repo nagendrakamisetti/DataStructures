@@ -1,20 +1,23 @@
 Algorithm is set of instructions in the computer for solving a particular problem.
-such sorting, searching.
+such as sorting, searching.
 
 Big O Notation/Asymptotic notation is used to measure the Algorithm speed.
 
-1. Linear Growth rate or Linear complexity. O(n) = single loop
-fining no.of evens in a given array.
+1. Linear Growth rate or Linear complexity. 
+Alogirithm iterated entire list of elements once is called linear.
+O(n) = single loop
+finding no.of evens in a given array.
 public int countEvens(int elements[]) {
 int count = 0;
-for (int i =0; i< elements.length)
- if (elemen)
-
-
+for (int i =0; i < elements.length; i++)
+	 if (element[i]%2 == 0) {
+	   count ++;
+	 }
+ }
+return count;
 }
-for (int i =0; i<
 
-2. constant Growth rate. O(1)
+2. Constant Time. O(1)
 
 public int getElementFrom(int a[], int index) {
 	return a[index];
@@ -25,14 +28,19 @@ public int getElementFrom(int a[], int index) {
  
 public int countDuplicates(int items1[], int items2[]) {
 int count = 0;
-for (int i =0; i< elements.length)
- if (elemen)
-
-
+for (int i =0; i< items1.length; i++) {
+	for (int j = 0; j< items2.length; j++) {
+		if (items[i] == items[2]) {
+			count ++;
+		}	
+         }
+}
+return count;
 }
 
-cubic notation. O(n3)
-
+Linear and Quadratic are called as Growth Rates.
+4. Cubic notation. O(n power 3)
+5. Exponential O(n power n)
 
 ds.stack.Stack: LIFO. Last in first out.
 
